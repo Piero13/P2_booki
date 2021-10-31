@@ -1,0 +1,243 @@
+/*responsive design mobile*/
+
+@media screen and (max-width: 768px) {
+    /*propriétés générales*/
+    a, p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    header {
+        margin: 20px 0 0 0;
+    }
+
+    /*header*/
+    .logo-nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu ul {
+        justify-content: center;
+    }
+
+    .menu li {
+        width: 50%;
+        text-align: center;
+    }
+
+    .menu a {
+        padding: 20px 0 15px 0;
+        width: 100%;
+    }
+
+    .menu a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+        color: #0065fc;
+    }
+
+    /*section recherche & filtres*/
+    /*recherche*/
+
+    .recherche form {
+        width: 310px;
+    }
+
+    .bouton, #bouton-recherche {
+        width: 46px;
+        border-radius: 15px;
+    }
+
+    #bouton-recherche {
+        font-size: 0;
+        z-index: 1;
+    }
+
+    #icone-recherche {
+        z-index: 2;
+    }
+
+    /*filtres*/
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtres p {
+        font-size: 14px;
+    }
+
+    .selection-filtre {
+        margin-top: 5px;
+    }
+
+    .selection-filtre div {
+        margin: 5px 10px 5px 0;
+    }
+
+    .info-recherche {
+        align-items: flex-start;
+    }
+
+    /*section hébergements*/
+    #section-hebergements {
+        flex-direction: column-reverse;
+    }
+
+    /*cartes hébergement*/
+    .hebergements, .popularite {
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    .hebergements {
+        background-color: initial;
+    }
+
+    .carte {
+        width: 280px;
+    }
+
+    .image-carte {
+        height: 100px;
+    }
+
+    /*cartes populaires*/
+    .cartes-populaires {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .carte-pop {
+        width: 280px;
+    }
+    /*section activités*/
+    #section-activites {
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .cartes-activites {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+
+    .div-cartes-activites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .carte-act {
+        margin: 20px 0 5px 0;
+        width: 280px;
+        height: 180px;
+    }
+
+    #image-carte-activites-1, #image-carte-activites-2, #image-carte-activites-3, #image-carte-activites-4, #image-carte-activites-5, #image-carte-activites-6 {
+        height: 130px;
+    }
+
+    #image-carte-activites-1 img, #image-carte-activites-4 img, #image-carte-activites-6 img {
+        width: 110%;
+        transform: translate(-50%, -50%);
+    }
+
+    #image-carte-activites-2 img {
+        width: 100%;
+        transform: translate(-50%, -45%);
+    }
+
+    #image-carte-activites-3 img, #image-carte-activites-5 img {
+        width: 100%;
+        transform: translate(-50%, -40%);
+    }
+
+    /*footer*/
+    .footer {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .footer div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*responsive design tablette*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+    /*filtres*/
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .selection-filtre {
+        margin-top: 5px;
+    }
+
+    .selection-filtre div {
+        margin: 5px 10px 5px 0;
+    }
+    
+    /*section hébergements*/
+    #section-hebergements {
+        flex-direction: column-reverse;
+    }
+    
+    .hebergements, .popularite {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .cartes-populaires {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .carte, .carte-pop {
+        width: 280px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .image-carte {
+        height: 100px;
+    }
+
+    /*section activités*/
+    .cartes-activites {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .div-cartes-activites {
+        width: 275px;
+        margin: 0 20px 20px 20px;
+    }
+}
