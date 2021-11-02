@@ -231,7 +231,8 @@ main {
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap;
-    margin: 10px 0;
+    max-width: 1024px;
+    margin: 10px auto 0 auto;
 }
 
 .carte {

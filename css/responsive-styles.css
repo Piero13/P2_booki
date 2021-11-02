@@ -110,8 +110,8 @@
         background-color: initial;
     }
 
-    .carte {
-        width: 280px;
+    .cartes-hebergements {
+        width: 100%;
     }
 
     .image-carte {
@@ -119,15 +119,11 @@
     }
 
     /*cartes populaires*/
-    .cartes-populaires {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
 
     .carte-pop {
         width: 280px;
     }
+
     /*section activités*/
     #section-activites {
         padding-top: 20px;
@@ -212,14 +208,13 @@
         width: 100%;
         padding: 20px;
     }
-    
-    .cartes-populaires {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+
+    .carte-pop {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    .carte, .carte-pop {
+    .carte {
         width: 280px;
         margin-left: 20px;
         margin-right: 20px;
@@ -237,7 +232,7 @@
     }
 
     .div-cartes-activites {
-        width: 275px;
+        width: 280px;
         margin: 0 20px 20px 20px;
     }
 }
