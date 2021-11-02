@@ -135,6 +135,7 @@
         justify-content: space-around;
         width: 100%;
         height: auto;
+        margin-top: 5px;
     }
 
     .div-cartes-activites {
@@ -209,11 +210,6 @@
         padding: 20px;
     }
 
-    .carte-pop {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     .carte {
         width: 280px;
         margin-left: 20px;
@@ -222,6 +218,12 @@
 
     .image-carte {
         height: 100px;
+    }
+
+    .carte-pop {
+        width: 316px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /*section activités*/
