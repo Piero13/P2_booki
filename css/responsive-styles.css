@@ -1,6 +1,6 @@
 /*responsive design mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     /*propriétés générales*/
     a, p {
         font-size: 14px;
@@ -184,7 +184,7 @@
 }
 
 /*responsive design tablette*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     
     /*filtres*/
     .filtres {
@@ -221,9 +221,18 @@
     }
 
     .carte-pop {
-        width: 316px;
+        max-width: initial;
+        width: 600px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .image-carte-pop {
+        width: 160px;
+    }
+
+    .image-carte-pop img {
+        height: 180%;
     }
 
     /*section activités*/
