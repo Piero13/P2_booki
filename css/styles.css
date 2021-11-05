@@ -3,13 +3,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
     width: 100%;
     min-width: 370px;
     margin: auto;
-    font-family: 'Raleway', sans-serif;
 }
 
 h1, h2 {
@@ -81,7 +81,7 @@ main {
     margin: 10px 0;
 }
 
-.recherche form {
+form {
     display: flex;
     align-items: center;
     height: 46px;

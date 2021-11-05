@@ -121,7 +121,16 @@
     /*cartes populaires*/
 
     .carte-pop {
-        width: 280px;
+        max-width: initial;
+        width: 100%;
+    }
+
+    .image-carte-pop {
+        width: 160px;
+    }
+
+    .image-carte-pop img {
+        height: 180%;
     }
 
     /*section activités*/
@@ -144,11 +153,13 @@
         align-items: center;
         width: 100%;
         height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .carte-act {
         margin: 20px 0 5px 0;
-        width: 280px;
+        width: 100%;
         height: 180px;
     }
 
@@ -158,6 +169,7 @@
 
     #image-carte-activites-1 img, #image-carte-activites-4 img, #image-carte-activites-6 img {
         width: 110%;
+        height: initial;
         transform: translate(-50%, -50%);
     }
 
