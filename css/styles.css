@@ -65,6 +65,7 @@ header {
     border-top: 2px solid #0065fc;
     color: #0065fc;
     font-weight: bolder;
+    padding-top: 18px;
 }
 
 /*section recherche & filtres*/
@@ -185,6 +186,7 @@ form {
 .selection-filtre div:hover {
     flex-direction: row-reverse;
     background-color: #0065fc;
+    cursor: pointer;
 }
 
 .selection-filtre div:hover .texte-filtre {

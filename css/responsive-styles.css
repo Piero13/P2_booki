@@ -49,6 +49,7 @@
         border-top: none;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
+        padding-bottom: 12px;
     }
 
     /*section recherche & filtres*/
